@@ -15,4 +15,4 @@ class EntreeSchema(Schema):
   id = fields.Number()
   name = fields.Str()
   cuisine = fields.Str()
-  dinner = fields.Bool()
+  dinner = fields.Boolean()
